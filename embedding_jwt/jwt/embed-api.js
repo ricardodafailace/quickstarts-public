@@ -1,7 +1,7 @@
-// const jwt = require('jsonwebtoken');
-import jwt from 'jsonwebtoken';
+const jwt = require('jsonwebtoken');
 const { v4: uuid } = require('uuid');
 const dotenv = require('dotenv');
+
 
 dotenv.config();
 
